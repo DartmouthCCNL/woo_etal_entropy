@@ -46,9 +46,9 @@ mod_cols = {'#ff00ff','#ff0000','#000000','#0000ff','#00ffff'};
 
 % met_set = "H_str"; met_lbl = "H(Str)";         % etc.
 % met_set = "ERDS"; met_lbl = met_set;           % Fig.3d
-% met_set = "N_MIRS"; met_lbl = "n-MIRS";        % Fig.3e
-% met_set = "N_MIRS_win"; met_lbl = "n-MIRS+";   % etc.
-met_set = "N_MIRS_lose"; met_lbl = "n-MIRS-";    % Fig.3g
+% met_set = "n_MIRS"; met_lbl = "n-MIRS";        % Fig.3e
+% met_set = "n_MIRS_win"; met_lbl = "n-MIRS+";   % etc.
+met_set = "n_MIRS_lose"; met_lbl = "n-MIRS-";    % Fig.3g
 
 figure(30); clf
 set(gcf,'Color','w','Units','normalized','Position',[0, 0, 0.27, 0.2]); hold on
@@ -93,9 +93,9 @@ Block_phase = "All";
 
 % met_set = "pbetter"; met_lbl = "P(Better)";    % Fig.3c
 % met_set = "ERDS"; met_lbl = met_set;           % Fig.3f
-% met_set = "N_MIRS"; met_lbl = "n-MIRS";        % etc.
-% met_set = "N_MIRS_win"; met_lbl = "n-MIRS+";   % etc.
-met_set = "N_MIRS_lose"; met_lbl = "n-MIRS-";    % Fig.3h
+% met_set = "n_MIRS"; met_lbl = "n-MIRS";        % etc.
+% met_set = "n_MIRS_win"; met_lbl = "n-MIRS+";   % etc.
+met_set = "n_MIRS_lose"; met_lbl = "n-MIRS-";    % Fig.3h
 
 xx = flip(alphaSet') - alphaSet;
 
