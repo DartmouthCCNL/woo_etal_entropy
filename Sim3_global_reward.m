@@ -17,7 +17,6 @@ rev_pos = 40;
 RewProbs = Construct_reward_schedule(rew_probs, blockL, rev_pos);
 EnvLbl = max(RewProbs(1,:))*100+"/"+min(RewProbs(1,:))*100+"%";
 
-sem = @(x,DIM) std(x,[],DIM,'omitnan')./sqrt(sum(~isnan(x),DIM));
 FontS = 15;
 
 %% Simulate agent behavior
