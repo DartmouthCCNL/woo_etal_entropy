@@ -1,8 +1,6 @@
 % Figure 2 Illustration of information-theoretic metrics
 clearvars; clc
-
 FontS = 15;
-sem = @(x,DIM) std(x,[],DIM,'omitnan')./sqrt(sum(~isnan(x),DIM));
 
 beta1 = 10;     % fixed inverse temperature at 10
 
