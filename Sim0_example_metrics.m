@@ -71,9 +71,9 @@ legend("\alpha = "+alpha_set,'linewidth',.5);
 
 % choose metric to plot
 met_set = "H_str"; met_lbl = "H(Str)";          % Fig.2c
-% met_set = "N_MIRS"; met_lbl = "n-MIRS";       % Fig.2d
-% met_set = "N_MIOS"; met_lbl = "n-MIOS";       % Fig.2e
-% met_set = "N_MIROS"; met_lbl = "n-MIROS";     % Fig.2f
+% met_set = "n_MIRS"; met_lbl = "n-MIRS";       % Fig.2d
+% met_set = "n_MIOS"; met_lbl = "n-MIOS";       % Fig.2e
+% met_set = "n_MIROS"; met_lbl = "n-MIROS";     % Fig.2f
 
 % met_set = "ERDS"; met_lbl = met_set;      % etc.
 % met_set = "EODS"; met_lbl = met_set;
