@@ -65,7 +65,7 @@ function output = Mutual_Information_decomp(Y, X, metric_name, decomp_map)
         I_Y_given_X(x_num) = H_Y - nan_sum(H_Y_given_x); % computed as I(X=x;Y) = H(Y) - H(Y|X=x)
         weighted_sum(x_num) = nan_sum(weighted_sum_vec);
         if decompose_flag
-            output.("p"+metric_name+"_"+decomp_map(x_unique(x_num))) = prob_x * I_Y_given_X(x_num);                 
+            output.(metric_name+"_"+decomp_map(x_unique(x_num))) = prob_x * I_Y_given_X(x_num);                 
         end
     end    
     output.(metric_name) = nan_sum(weighted_sum); 
