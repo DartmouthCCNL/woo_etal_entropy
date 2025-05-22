@@ -1,5 +1,5 @@
 ## Overview
-This repository contians customsimulation and analysis codes for Woo et al., 2025 Entropy
+This repository contians custom simulation and analysis codes for Woo et al., 2025 Entropy
 
 Requires installation of MATLAB 2021b or higher. Some functionality might not work for earlier version. The following codes have been tested in MATLAB version 2021b and 2022b. See [here](https://www.mathworks.com/help/install/install-products.html) for more instuctions on the installation.
 
